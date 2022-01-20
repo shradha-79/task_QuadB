@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="head1">
+        <div class="container">
+            <div class="row">
+                <div class="head1-1 column">
+                    <div class="head1links">
+                        <!-- <div class="dropdown show"> -->
+                        <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            English
+                        </a>
+
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                        <!-- </div> -->
+                        <span>|</span>
+                        <a href="#"> Epapar </a>
+                        <span>|</span>
+                        <a href=""> GadgetsNow </a>
+
+                    </div>
+                </div>
+                <div class="head1-2 column">
+                    <div id="widget-head">
+                        <img alt="TimesPoints - Times Network Reward Program"
+                            src="//image.timespoints.iimg.in/tpwidgets/static/dist/images/crown.svg">
+                        <a href="">Visit TOI dail & earn Time Points</a>
+                    </div>
+                    <div class="signin">SIGN IN</div>
+                    <ul class="logos">
+                        <li class="logo twitter">
+                            <a href="#" rel="" target="_blank"></a>
+                        </li>
+                        <li class="logo fb">
+                            <a href="#" rel="" target="_blank"></a>
+                        </li>
+                        <li class="logo rss">
+                            <a href="#" rel="" target="_blank"></a>
+                        </li>
+                        <li class="logo youtube">
+                            <a href="#" rel="" target="_blank"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="head2">
+        <div class="head2-1">THE TIMES OF INDIA</div>
+        <div class="head2-2">Delhi
+            <span id="weather"></span>
+            <span id="temp">13°C </span>
+            <span id="arrow"> » </span>
+        </div>
+    </div>
+
+    
+    <div class="head3 row">
+        <div class="navb col">
+            <ul>
+                <li class="nav-home">
+                    <a href=""></a>
+                </li>
+                <li>
+                    <a href="">Latest news</a>
+                </li>
+                <li>
+                    <a href="">Most Shared</a>
+                </li>
+                <li>
+                    <a href="">Most Read</a>
+                </li>
+                <li>
+                    <a href="">Most Commented</a>
+                </li>
+                <li>
+                    <a href="">Delhi Elections</a>
+                </li>
+                <li>
+                    <a href="">Bihar Elections</a>
+                </li>
+            </ul>
+        </div>
+        <div class="search col"></div>
+    </div>
+
+
+    <div class="head4">
+        <div>News » Latest news</div>
+    </div>
+
+
+    <div id="content">
+        <div class="wrapper clearfix">
+          <h1 class="hdn1">LATEST NEWS</h1>
+          <div class="sidebar">
+            <div
+              data-size="[[300, 250], [300, 1050]]"
+              data-adsslot="TOI/TOI_Special_Content/TOI_Special_Content/TOI_ROS_ATF_SPC_CONT_300"
+              id="div-gpt-ad-1418047271354-0"
+            ></div>
+            <div class="widget latestmostwdt">
+              <div class="heading">MOST POPULAR</div>
+              <ul class="tabstrip1 clearfix">
+                <li>
+                  <a
+                    pg="Most_Popular_RHS#Tab-Change-Most_Shared"
+                    id="mostshared"
+                    class="active latestwidget"
+                    style="cursor: pointer"
+                    >SHARED</a
+                  >
+                </li>
+                <li>
+                  <a
+                    pg="Most_Popular_RHS#Tab-Change-Most_Commented"
+                    id="mostcommented"
+                    class="latestwidget"
+                    style="cursor: pointer"
+                    >COMMENTED</a
+                  >
+                </li>
+                <li>
+                  <a
+                    pg="Most_Popular_RHS#Tab-Change-Most_Read"
+                    id="latest"
+                    class="latestwidget"
+                    style="cursor: pointer"
+                    >READ</a
+                  >
+                </li>
+                <li class="last">
+                  <a
+                    pg="Most_Popular_RHS#Tab-Change-Most_Trending"
+                    id="mosttrending"
+                    class="latestwidget"
+                    style="cursor: pointer"
+                    >TRENDING</a
+                  >
+                </li>
+              </ul>
+              <div class="tabcontent mostshared">
+                <ol class="list4">
+                  <div class="list_article">
+                    <ul data-vr-zone="list_article">
+                      <li data-vr-contentbox="">
+                        <span style="display: inline" class="number">1.</span
+                        ><a
+                          pg="Most_Popular_RHS-Most_Shared#Story_View-1-geturl"
+                          href="/tv/news/hindi/the-kapil-sharma-shows-krushna-abhishek-to-18-year-old-anushka-sen-expensive-and-limited-edition-cars-owned-by-these-tv-celebs/photostory/88995417.cms"
+                          ><span
+                            >The Kapil Sharma Show's Krushna Abhishek to
+                            18-year-old Anushka Sen; expensive and limited edition
+                            cars owned by these TV celebs</span
+                          ></a
+                        >
+                      </li>
+                      <li data-vr-contentbox="">
+                        <span style="display: inline" class="number">2.</span
+                        ><a
+                          pg="Most_Popular_RHS-Most_Shared#Story_View-2-geturl"
+                          href="/city/chennai/tn-was-told-to-make-velu-nachiyars-horse-brown/articleshow/88983454.cms"
+                          ><span
+                            >Tamil Nadu was told to make Velu Nachiyar’s horse
+                            brown</span
+                          ></a
+                        >
+                      </li>
+                      <li data-vr-contentbox="">
+                        <span style="display: inline" class="number">3.</span
+                        ><a
+                          pg="Most_Popular_RHS-Most_Shared#Story_View-3-geturl"
+                          href="/tv/news/hindi/exclusive-divorce-can-be-more-painful-than-death-as-you-live-with-an-amputated-core-nitish-bharadwaj/articleshow/88953808.cms"
+                          ><span
+                            >Mahabharat fame Nitish Bharadwaj splits from wife
+                            Smita after 12 years of marriage; says, 'Divorce more
+                            painful than death'</span
+                          ></a
+                        >
+                      </li>
+                      <li data-vr-contentbox="">
+                        <span style="display: inline" class="number">4.</span
+                        ><a
+                          pg="Most_Popular_RHS-Most_Shared#Story_View-4-geturl"
+                          href="/city/mumbai/mumbai-shrikant-shivade-lawyer-for-salman-khan-saif-ali-khan-and-others-is-no-more/articleshow/88996606.cms"
+                          ><span
+                            >Mumbai: Shrikant Shivade — lawyer for Salman Khan,
+                            Saif Ali Khan and others — is no more; loss to bar,
+                            say seniors</span
+                          ></a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <!--/mostshared_blocknew.cms?tabname=mostshared&top=5&tabname=mostshared&v=1potime:3-->
+                </ol>
+                <span class="more"
+                  ><a
+                    pg="Most_Popular_RHS-Most_Shared#Section_View_More"
+                    href="/mostshared.cms"
+                    >See all most shared stories</a
+                  ></span
+                >
+              </div>
+              <div style="display: none" class="tabcontent mostcommented">
+                <ol class="list4">
+                  <div
+                    style="
+                      width: 100%;
+                      height: 100%;
+                      position: relative;
+                      height: 200px;
+                    "
+                  >
+                    <span
+                      style="
+                        position: absolute;
+                        top: 75px;
+                        color: #000;
+                        width: 100%;
+                        text-align: center;
+                        font-size: 14px;
+                      "
+                      ><img
+                        style="
+                          width: 16px;
+                          height: 16px;
+                          display: block;
+                          margin: 0 auto 10px;
+                        "
+                        data-src="/photo/20259450.cms"
+                      />Loading..</span
+                    >
+                  </div>
+                </ol>
+                <span class="more"
+                  ><a
+                    pg="Most_Popular_RHS-Most_Commented#Section_View_More"
+                    href="/mostcommented.cms"
+                    >See all most commented stories</a
+                  ></span
+                >
+              </div>
+              <div style="display: none" class="tabcontent latest">
+                <ol class="list4">
+                  <div
+                    style="
+                      width: 100%;
+                      height: 100%;
+                      position: relative;
+                      height: 200px;
+                    "
+                  >
+                    <span
+                      style="
+                        position: absolute;
+                        top: 75px;
+                        color: #000;
+                        width: 100%;
+                        text-align: center;
+                        font-size: 14px;
+                      "
+                      ><img
+                        style="
+                          width: 16px;
+                          height: 16px;
+                          display: block;
+                          margin: 0 auto 10px;
+                        "
+                        data-src="/photo/20259450.cms"
+                      />Loading..</span
+                    >
+                  </div>
+                </ol>
+                <span class="more"
+                  ><a
+                    pg="Most_Popular_RHS-Most_Read#Section_View_More"
+                    href="/mostread.cms"
+                    >See all most read stories</a
+                  ></span
+                >
+              </div>
+              <div style="display: none" class="tabcontent mosttrending">
+                <ol class="list4">
+                  <div
+                    style="
+                      width: 100%;
+                      height: 100%;
+                      position: relative;
+                      height: 200px;
+                    "
+                  >
+                    <span
+                      style="
+                        position: absolute;
+                        top: 75px;
+                        color: #000;
+                        width: 100%;
+                        text-align: center;
+                        font-size: 14px;
+                      "
+                      ><img
+                        style="
+                          width: 16px;
+                          height: 16px;
+                          display: block;
+                          margin: 0 auto 10px;
+                        "
+                        data-src="/photo/20259450.cms"
+                      />Loading..</span
+                    >
+                  </div>
+                </ol>
+                <span class="more"
+                  ><a
+                    pg="Most_Popular_RHS-Most_Trending#Section_View_More"
+                    href="/news"
+                    >See all trending stories</a
+                  ></span
+                >
+              </div>
+            </div>
+            <h2 class="sechead">
+              <a href="/entertainment">Entertainment News</a>
+            </h2>
+            <ul class="cvs_wdt clearfix" data-msid="7507116">
+              <li>
+                <a
+                  class="w_img"
+                  href="/entertainment/hindi/bollywood/news/remo-dsouzas-brother-in-law-jason-watkins-found-hanging-at-his-residence-exclusive/articleshow/89016030.cms"
+                  title="Remo D'Souza's brother-in-law found dead- Exclusive"
+                  pg="-entertainment/hindi/bollywood/news#Story_View-1-geturl"
+                  ><img
+                    src="https://static.toiimg.com/thumb/imgsize-45544,msid-89016032,width-150,resizemode-4/89016032.jpg"
+                    alt="Remo D'Souza's brother-in-law found dead- Exclusive"
+                    pg="-entertainment/hindi/bollywood/news#Story_View-1-geturl" /></a
+                ><span class="w_tle"
+                  ><a
+                    href="/entertainment/hindi/bollywood/news/remo-dsouzas-brother-in-law-jason-watkins-found-hanging-at-his-residence-exclusive/articleshow/89016030.cms"
+                    title="Remo D'Souza's brother-in-law found dead- Exclusive"
+                    pg="-entertainment/hindi/bollywood/news#Story_View-1-geturl"
+                    >Remo D'Souza's brother-in-law found dead- Exclusive</a
+                  ></span
+                >
+              </li>
+              <li>
+                <a
+                  class="w_img"
+                  href="/entertainment/tamil/movies/news/will-dhanush-and-aishwaryaa-reunite-dhanushs-father-kasthuri-raja-opens-up/articleshow/89011681.cms"
+                  title="Will Dhanush and Aishwaryaa reunite?"
+                  pg="-entertainment/tamil/movies/news#Story_View-2-geturl"
+                  ><img
+                    src="https://static.toiimg.com/thumb/imgsize-65658,msid-89011672,width-150,resizemode-4/89011672.jpg"
+                    alt="Will Dhanush and Aishwaryaa reunite?"
+                    pg="-entertainment/tamil/movies/news#Story_View-2-geturl" /></a
+                ><span class="w_tle"
+                  ><a
+                    href="/entertainment/tamil/movies/news/will-dhanush-and-aishwaryaa-reunite-dhanushs-father-kasthuri-raja-opens-up/articleshow/89011681.cms"
+                    title="Will Dhanush and Aishwaryaa reunite?"
+                    pg="-entertainment/tamil/movies/news#Story_View-2-geturl"
+                    >Will Dhanush and Aishwaryaa reunite?</a
+                  ></span
+                >
+              </li>
+              <li>
+                <a
+                  class="w_img"
+                  href="/entertainment/hindi/bollywood/news/deepika-padukone-reveals-ranveer-singh-always-believed-that-shakun-batra-and-she-would-make-a-great-film-together-even-before-gehraiyaan-happened/articleshow/89018344.cms"
+                  title="DP: Ranveer always believed in Shakun &amp; me"
+                  pg="-entertainment/hindi/bollywood/news#Story_View-3-geturl"
+                  ><img
+                    src="https://static.toiimg.com/thumb/msid-34824568,height-169,width-300/34824568.jpg"
+                    data-src="https://static.toiimg.com/photo/89018344.cms"
+                    alt="DP: Ranveer always believed in Shakun &amp; me"
+                    pg="-entertainment/hindi/bollywood/news#Story_View-3-geturl" /></a
+                ><span class="w_tle"
+                  ><a
+                    href="/entertainment/hindi/bollywood/news/deepika-padukone-reveals-ranveer-singh-always-believed-that-shakun-batra-and-she-would-make-a-great-film-together-even-before-gehraiyaan-happened/articleshow/89018344.cms"
+                    title="DP: Ranveer always believed in Shakun &amp; me"
+                    pg="-entertainment/hindi/bollywood/news#Story_View-3-geturl"
+                    >DP: Ranveer always believed in Shakun &amp; me</a
+                  ></span
+                >
+              </li>
+              <li>
+                <a
+                  class="w_img"
+                  href="/entertainment/hindi/web-stories/fatima-sana-shaikhs-uber-chic-style-deserves-your-attention/photostory/89015479.cms"
+                  title="Fatima Sana Shaikh's uber chic style in pics"
+                  pg="-entertainment/hindi/web-stories#Photo_View-4-geturl"
+                  ><img
+                    src="https://static.toiimg.com/thumb/msid-34824568,height-169,width-300/34824568.jpg"
+                    data-src="https://static.toiimg.com/photo/89015479.cms"
+                    alt="Fatima Sana Shaikh's uber chic style in pics"
+                    pg="-entertainment/hindi/web-stories#Photo_View-4-geturl" /><i
+                    class="psstoryicon"
+                  ></i></a
+                ><span class="w_tle"
+                  ><a
+                    href="/entertainment/hindi/web-stories/fatima-sana-shaikhs-uber-chic-style-deserves-your-attention/photostory/89015479.cms"
+                    title="Fatima Sana Shaikh's uber chic style in pics"
+                    pg="-entertainment/hindi/web-stories#Photo_View-4-geturl"
+                    >Fatima Sana Shaikh's uber chic style in pics</a
+                  ></span
+                >
+              </li>
+              <li>
+                <a
+                  class="w_img"
+                  href="/entertainment/hindi/bollywood/news/neha-dhupia-opens-up-about-her-friend-and-tennis-star-sania-mirza-announcing-her-retirement-from-the-sport-says-you-never-lose-your-star-players/articleshow/89020361.cms"
+                  title="Neha Dhupia on Sania Mirza's retirement"
+                  pg="-entertainment/hindi/bollywood/news#Story_View-5-geturl"
+                  ><img
+                    src="https://static.toiimg.com/thumb/msid-34824568,height-169,width-300/34824568.jpg"
+                    data-src="https://static.toiimg.com/photo/89020361.cms"
+                    alt="Neha Dhupia on Sania Mirza's retirement"
+                    pg="-entertainment/hindi/bollywood/news#Story_View-5-geturl" /></a
+                ><span class="w_tle"
+                  ><a
+                    href="/entertainment/hindi/bollywood/news/neha-dhupia-opens-up-about-her-friend-and-tennis-star-sania-mirza-announcing-her-retirement-from-the-sport-says-you-never-lose-your-star-players/articleshow/89020361.cms"
+                    title="Neha Dhupia on Sania Mirza's retirement"
+                    pg="-entertainment/hindi/bollywood/news#Story_View-5-geturl"
+                    >Neha Dhupia on Sania Mirza's retirement</a
+                  ></span
+                >
+              </li>
+            </ul>
+            
+          </div>
+          <div class="main-content">
+            <div class="listing4 clearfix" id="ulItemContainer">
+              <ul
+                class="cvs_wdt clearfix"
+                data-msid="-2128958273"
+                id="itemContainer"
+              >
+                <li>
+                  <a
+                    class="w_img"
+                    href="/india/coronavirus-omicron-variant-india-live-updates-jan-20/liveblog/89006555.cms"
+                    title="Live: Kerala reports 46,387 new Covid-19 cases, 35.6% higher than yesterday"
+                    pg="-india#Story_View-1-geturl"
+                    ><img
+                      src="https://static.toiimg.com/thumb/imgsize-121872,msid-89006555,width-141,resizemode-4/89006555.jpg"
+                      alt="Live: Kerala reports 46,387 new Covid-19 cases, 35.6% higher than yesterday"
+                      pg="-india#Story_View-1-geturl" /></a
+                  ><span class="w_tle"
+                    ><a
+                      href="/india/coronavirus-omicron-variant-india-live-updates-jan-20/liveblog/89006555.cms"
+                      title="Live: Kerala reports 46,387 new Covid-19 cases, 35.6% higher than yesterday"
+                      pg="-india#Story_View-1-geturl"
+                      >Live: Kerala reports 46,387 new Covid-19 cases, 35.6%
+                      higher than yesterday</a
+                    ></span
+                  ><span class="w_desc"></span>
+                </li>
+                <li>
+                  <a
+                    class="w_img"
+                    href="/india/assembly-elections-2022-live-updates-up-punjab-manipur-uttarakhand-goa-20-january-2022/liveblog/89006692.cms"
+                    title="Live: Akhilesh Yadav likely to contest UP polls from Karhal"
+                    pg="-india#Story_View-2-geturl"
+                    ><img
+                      src="https://static.toiimg.com/thumb/imgsize-917767,msid-89006692,width-141,resizemode-4/89006692.jpg"
+                      alt="Live: Akhilesh Yadav likely to contest UP polls from Karhal"
+                      pg="-india#Story_View-2-geturl" /></a
+                  ><span class="w_tle"
+                    ><a
+                      href="/india/assembly-elections-2022-live-updates-up-punjab-manipur-uttarakhand-goa-20-january-2022/liveblog/89006692.cms"
+                      title="Live: Akhilesh Yadav likely to contest UP polls from Karhal"
+                      pg="-india#Story_View-2-geturl"
+                      >Live: Akhilesh Yadav likely to contest UP polls from
+                      Karhal</a
+                    ></span
+                  ><span class="w_desc"></span>
+                </li>
+                <li class="prime">
+                  <a
+                    class="w_img"
+                    href="/india/is-yogi-adityanath-the-likely-successor-of-pm-modi/articleshow/88186832.cms"
+                    title="Can Yogi be the next Modi?"
+                    pg="-india#Story_View-3-geturl"
+                    ><img
+                      src="https://static.toiimg.com/thumb/imgsize-15652,msid-88271506,width-141,resizemode-4/88271506.jpg"
+                      alt="Can Yogi be the next Modi?"
+                      pg="-india#Story_View-3-geturl" /><i
+                      class="icon_prime"
+                    ></i></a
+                  ><span class="w_tle"
+                    ><a
+                      href="/india/is-yogi-adityanath-the-likely-successor-of-pm-modi/articleshow/88186832.cms"
+                      title="Can Yogi be the next Modi?"
+                      pg="-india#Story_View-3-geturl"
+                      >Can Yogi be the next Modi?</a
+                    ></span
+                  ><span class="w_desc"
+                    >Since he took office as UP chief minister in 2017, Yogi
+                    Adityanath has been billed as the next prime minister after
+                    Modi. In this excerpt from their new book, the two senior
+                    journalists examine and compare their leadership style and
+                    popularity</span
+                  >
+                </li>
+                <li>
+                  <a
+                    class="w_img"
+                    href="/india/covid-maharashtra-karnataka-up-3-others-are-states-of-concern-says-govt/articleshow/89017381.cms"
+                    title="Covid: 'Maha, Karnataka, UP, 3 others are states of concern'"
+                    pg="-india#Story_View-4-geturl"
+                    ><img
+                      src="https://static.toiimg.com/thumb/imgsize-89396,msid-89018584,width-141,resizemode-4/89018584.jpg"
+                      alt="Covid: 'Maha, Karnataka, UP, 3 others are states of concern'"
+                      pg="-india#Story_View-4-geturl" /></a
+                  ><span class="w_tle"
+                    ><a
+                      href="/india/covid-maharashtra-karnataka-up-3-others-are-states-of-concern-says-govt/articleshow/89017381.cms"
+                      title="Covid: 'Maha, Karnataka, UP, 3 others are states of concern'"
+                      pg="-india#Story_View-4-geturl"
+                      >Covid: 'Maha, Karnataka, UP, 3 others are states of
+                      concern'</a
+                    ></span
+                  ><span class="w_desc"></span>
+                </li>
+                <li>
+                  <a
+                    class="w_img"
+                    href="https://timesofindia.indiatimes.com/business/india-business/budget/budget-survey"
+                    title="What are your expectations from Budget 2022? Take survey"
+                    pg="-top-headlines#Story_View-5-geturl"
+                    ><img
+                      src="https://static.toiimg.com/thumb/imgsize-46074,msid-89019410,width-141,resizemode-4/89019410.jpg"
+                      alt="What are your expectations from Budget 2022? Take survey"
+                      pg="-top-headlines#Story_View-5-geturl" /></a
+                  ><span class="w_tle"
+                    ><a
+                      href="https://timesofindia.indiatimes.com/business/india-business/budget/budget-survey"
+                      title="What are your expectations from Budget 2022? Take survey"
+                      pg="-top-headlines#Story_View-5-geturl"
+                      >What are your expectations from Budget 2022? Take survey</a
+                    ></span
+                  ><span class="w_desc"></span>
+                </li>
+                <li>
+                  <a
+                    class="w_img"
+                    href="/sports/cricket/india-in-south-africa/india-drop-to-third-place-in-icc-test-rankings-australia-on-top-after-dominant-ashes/articleshow/89017658.cms"
+                    title="India drop to third place in ICC Test rankings"
+                    pg="-sports/cricket/india-in-south-africa#Story_View-6-geturl"
+                    ><img
+                      src="https://static.toiimg.com/thumb/msid-34824568,height-169,width-300/34824568.jpg"
+                      data-src="https://static.toiimg.com/thumb/imgsize-62150,msid-89017637,width-141,resizemode-4/89017637.jpg"
+                      alt="India drop to third place in ICC Test rankings"
+                      pg="-sports/cricket/india-in-south-africa#Story_View-6-geturl" /></a
+                  ><span class="w_tle"
+                    ><a
+                      href="/sports/cricket/india-in-south-africa/india-drop-to-third-place-in-icc-test-rankings-australia-on-top-after-dominant-ashes/articleshow/89017658.cms"
+                      title="India drop to third place in ICC Test rankings"
+                      pg="-sports/cricket/india-in-south-africa#Story_View-6-geturl"
+                      >India drop to third place in ICC Test rankings</a
+                    ></span
+                  ><span class="w_desc"
+                    >Australia displaced India from the top of the Test rankings
+                    after their 4-0 drubbing of England in the recently-concluded
+                    Ashes series, even as the Virat Kohli-led side squandered a
+                    1-0 lead to go down against South Africa.</span
+                  >
+                </li>
+                <li class="prime">
+                  <a
+                    class="w_img"
+                    href="/india/why-dalit-voters-keep-up-political-parties-and-experts-guessing/articleshow/88974343.cms"
+                    title="Why there is a scramble for Dalit votes in UP"
+                    pg="-india#Story_View-7-geturl"
+                    ><img
+                      src="https://static.toiimg.com/thumb/msid-34824568,height-169,width-300/34824568.jpg"
+                      data-src="https://static.toiimg.com/thumb/imgsize-44470,msid-88977143,width-141,resizemode-4/88977143.jpg"
+                      alt="Why there is a scramble for Dalit votes in UP"
+                      pg="-india#Story_View-7-geturl" /><i
+                      class="icon_prime"
+                    ></i></a
+                  ><span class="w_tle"
+                    ><a
+                      href="/india/why-dalit-voters-keep-up-political-parties-and-experts-guessing/articleshow/88974343.cms"
+                      title="Why there is a scramble for Dalit votes in UP"
+                      pg="-india#Story_View-7-geturl"
+                      >Why there is a scramble for Dalit votes in UP</a
+                    ></span
+                  ><span class="w_desc"
+                    >The Dalit community — 21 % of UP voters — traditionally voted
+                    for the BSP. But with their leader Mayawati missing in action,
+                    the BJP is hoping to win over the community with their welfare
+                    schemes while the SP is wooing Dalit leaders to widen its
+                    footprint in the state</span
+                  >
+               
+                
+                <li>
+                  <a
+                    class="w_img"
+                    href="https://www.gadgetsnow.com/slideshows/last-day-of-amazon-sale-earphones-car-vacuum-cleaner-smart-lights-and-other-gadgets-available-under-rs-499/photolist/89015612.cms"
+                    rel="nofollow"
+                    title="Last day of Amazon sale: Earphones &amp; others under Rs 499"
+                    pg="-TOI-Main-stories#Story_View-9-geturl"
+                    ><img
+                      src="https://static.toiimg.com/thumb/msid-34824568,height-169,width-300/34824568.jpg"
+                      data-src="https://static.toiimg.com/thumb/imgsize-4346,msid-89018107,width-141,resizemode-4/89018107.jpg"
+                      alt="Last day of Amazon sale: Earphones &amp; others under Rs 499"
+                      pg="-TOI-Main-stories#Story_View-9-geturl" /></a
+                  ><span class="w_tle"
+                    ><a
+                      href="https://www.gadgetsnow.com/slideshows/last-day-of-amazon-sale-earphones-car-vacuum-cleaner-smart-lights-and-other-gadgets-available-under-rs-499/photolist/89015612.cms"
+                      rel="nofollow"
+                      title="Last day of Amazon sale: Earphones &amp; others under Rs 499"
+                      pg="-TOI-Main-stories#Story_View-9-geturl"
+                      >Last day of Amazon sale: Earphones &amp; others under Rs
+                      499</a
+                    ></span
+                  ><span class="w_desc"></span>
+                </li>
+                
+               
+              </ul>
+              <ul class="curpgcss" id="itemContainer">
+                <li><a href="/news" pg="shorturl-/news_page#1">1</a></li>
+                <li><a href="/news/2" pg="shorturl-/news_page#2">2</a></li>
+                <li><a href="/news/3" pg="shorturl-/news_page#3">3</a></li>
+              </ul>
+            </div>
+            <div class="holder"></div>
+          </div>
+         
+          
+        </div>
+      </div>
+</body>
+
+</html>
